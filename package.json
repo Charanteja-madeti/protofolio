@@ -1,0 +1,20 @@
+{
+  "name": "rubiks-cube-portfolio",
+  "version": "1.0.0",
+  "description": "Interactive Rubik's Cube Developer Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server rubikscube -p 8000 -o",
+    "dev": "http-server rubikscube -p 8000 -c-1"
+  },
+  "keywords": [
+    "portfolio",
+    "rubiks-cube",
+    "developer"
+  ],
+  "author": "Brahmpreet Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
